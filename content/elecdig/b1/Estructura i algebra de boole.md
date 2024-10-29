@@ -65,6 +65,3 @@ La funcions es poden expressar en forma canònica a través de:
 - **Producte de sumes** $f(a,b) = (A + B) \cdot (\overline{A + B})$
 
 Els **Mínterms** són els productes que fan que la funció sigui verdadera, 
-
-# Comentaris
-{{< chat >}}
