@@ -6,6 +6,7 @@
       {
         "id": "f705620990cd5a67",
         "type": "tabs",
+        "dimension": 79.82233502538071,
         "children": [
           {
             "id": "9a9476ca66e194f2",
@@ -20,7 +21,14 @@
               "icon": "lucide-file",
               "title": "Estructura i algebra de boole"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "e80dbc6536afd6f9",
+        "type": "tabs",
+        "dimension": 20.17766497461929,
+        "children": [
           {
             "id": "c22abfed16b4cf30",
             "type": "leaf",
@@ -127,12 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elecdig/b1/Estructura i algebra de boole.md",
+                "file": "elecdig/b1/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enllaços sortints de Estructura i algebra de boole"
+              "title": "Enllaços sortints de _index"
             }
           },
           {
@@ -160,12 +168,12 @@
               "title": "Esquema de Estructura i algebra de boole"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 230.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,13 +187,15 @@
   },
   "active": "9a9476ca66e194f2",
   "lastOpenFiles": [
-    "Fulla de referències.md",
     "elecdig/b1/Estructura i algebra de boole.md",
+    "Fulla de referències.md",
+    "elecdig/b1/t1/portes.png",
+    "elecdig/b1/_index.md",
+    "elecdig/b1/Sistemes combinacionals.md",
+    "elecdig/_index.md",
+    "_index.md",
     "elecdig/b1/t1/freq_mostreig.png",
     "elecdig/b1/t1",
-    "_index.md",
-    "elecdig/b1/_index.md",
-    "elecdig/_index.md",
     "alg",
     "calc/Sense títol",
     "calc",

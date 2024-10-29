@@ -143,3 +143,10 @@ params:
   BookSearch: false
   BookServiceWorker: false
   BookPortableLinks: false
+
+  # Comments
+  services:
+    disqus:
+      shortname: anthrapunts
+  
+  disqusShortname: anthrapunts

@@ -19,7 +19,7 @@
         {
           "source": "/elecdig/b1/",
           "target": "/Estructura-i-algebra-de-boole",
-          "text": "Estructura i algebra de boole"
+          "text": "Estructura i àlgebra de boole"
         }
       ],
       "/elecdig/b1/Estructura-i-algebra-de-boole": [
@@ -32,6 +32,21 @@
           "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
           "target": "/Fulla-de-refer%C3%A8ncies",
           "text": "2"
+        },
+        {
+          "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+          "target": "/Fulla-de-refer%C3%A8ncies",
+          "text": "3"
+        },
+        {
+          "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+          "target": "/Fulla-de-refer%C3%A8ncies",
+          "text": "4"
+        },
+        {
+          "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+          "target": "/Fulla-de-refer%C3%A8ncies",
+          "text": "5"
         }
       ]
     },
@@ -40,7 +55,7 @@
         {
           "source": "/elecdig/b1/",
           "target": "/Estructura-i-algebra-de-boole",
-          "text": "Estructura i algebra de boole"
+          "text": "Estructura i àlgebra de boole"
         }
       ],
       "/Fulla-de-refer%C3%A8ncies": [
@@ -53,6 +68,21 @@
           "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
           "target": "/Fulla-de-refer%C3%A8ncies",
           "text": "2"
+        },
+        {
+          "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+          "target": "/Fulla-de-refer%C3%A8ncies",
+          "text": "3"
+        },
+        {
+          "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+          "target": "/Fulla-de-refer%C3%A8ncies",
+          "text": "4"
+        },
+        {
+          "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+          "target": "/Fulla-de-refer%C3%A8ncies",
+          "text": "5"
         }
       ],
       "/elecdig/_index": [
@@ -93,9 +123,24 @@
       "text": "2"
     },
     {
+      "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+      "target": "/Fulla-de-refer%C3%A8ncies",
+      "text": "3"
+    },
+    {
+      "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+      "target": "/Fulla-de-refer%C3%A8ncies",
+      "text": "4"
+    },
+    {
+      "source": "/elecdig/b1/Estructura-i-algebra-de-boole",
+      "target": "/Fulla-de-refer%C3%A8ncies",
+      "text": "5"
+    },
+    {
       "source": "/elecdig/b1/",
       "target": "/Estructura-i-algebra-de-boole",
-      "text": "Estructura i algebra de boole"
+      "text": "Estructura i àlgebra de boole"
     }
   ]
 }
