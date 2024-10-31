@@ -64,4 +64,49 @@ La funcions es poden expressar en forma canònica a través de:
 - **Suma de productes**, $f(a,b) = A  \overline{B} + \overline{A}  B$
 - **Producte de sumes** $f(a,b) = (A + B) \cdot (\overline{A + B})$
 
-Els **Mínterms** són els productes que fan que la funció sigui verdadera, 
+
+### Mínterms
+Els **Mínterms** són els productes que fan que la funció sigui verdadera on cada variable apareix un cop, aquests, s'expressen com a suma de productes. Si perquè la funció sigui verdadera una o més de les variables han de ser 0, aquestes s'escriuràn negades a la suma de productes.
+Per a veure millor els mínterms, aquest és un exemple:
+
+| $n$   | **A** | **B** | **C** | **$f$** | **Mínterm**          |
+| ----- | ----- | ----- | ----- | ------: | -------------------- |
+| 0     | 0     | 0     | 0     |       0 |                      |
+| 1     | 0     | 0     | 1     |       0 |                      |
+| 2     | 0     | 1     | 0     |       0 |                      |
+| **3** | **0** | **1** | **1** |   **1** | **$\overline{A}BC$** |
+| **4** | **1** | **0** | **0** |   **1** | **$A\overline{BC}$** |
+| 5     | 1     | 0     | 1     |       0 |                      |
+| **6** | **1** | **1** | **0** |   **1** | **$AB\overline{C}$** |
+| 7     | 1     | 1     | 1     |       0 |                      |
+
+En l'exemple, es veu com la funció només té mínterms quan dóna 1 i ens podem referir a ells depenent de l'ordre en el que apareixen a la taula, en aquest cas serien els mínterms 3, 4 i 6.
+
+La funció es pot expressar com a la suma dels seus mínterms, per tant, $\overline{A}BC + A\overline{BC} + AB\overline{C}$. A més, si se sap la funció, els mínterms es poden expressar de la següent manera:
+$$F(A, B, C) = \sum_{m}{(3, 4, 6)}$$
+> [!important]
+> Apunt important!
+> 
+> Recorda que al fer la **taula de veritat**, s'ha de fer de manera **ordenada**, ja que sinó, els nombres dels mínterms quedaràn mal ordenats.
+> 
+> També, al fer la suma de mínterms, s'ha d'**especificar el seu ordre**.
+
+### Màxterms
+També existeixen els màxterms, el concepte és el mateix que els dels mínterms, tot i que s'expressen com a producte de sumes i fan que la funció sigui falsa, amb el mateix exemple d'abans seria:
+
+| $n$ | **A** | **B** | **C** | **$f$** | **Mínterm**      | **Màxterm**                   |
+| --- | ----- | ----- | ----- | ------: | ---------------- | ----------------------------- |
+| 0   | 0     | 0     | 0     |       0 |                  | $A+B+C$                       |
+| 1   | 0     | 0     | 1     |       0 |                  | $A+B+\overline{C}$            |
+| 2   | 0     | 1     | 0     |       0 |                  | $A+\overline{B}+C$            |
+| 3   | 0     | 1     | 1     |       1 | $\overline{A}BC$ |                               |
+| 4   | 1     | 0     | 0     |       1 | $A\overline{BC}$ |                               |
+| 5   | 1     | 0     | 1     |       0 |                  | $\overline{A}+B+\overline{C}$ |
+| 6   | 1     | 1     | 0     |       1 | $AB\overline{C}$ |                               |
+| 7   | 1     | 1     | 1     |       0 |                  | $\overline{A+B+C}$            |
+
+Per tant, els màxterms són 0, 1, 2, 5 i 7. La funció s'expressaria com a $(A+B+C)(A+B+\overline{C})(A+\overline{B}+C)(\overline{A}+B+\overline{C})(\overline{A+B+C})$ o com a :
+	$$F(A,B,C) = \prod_{M}{(0, 1, 2, 5, 7)}$$
+## Suficiència de la NAND i de la NOR
+Tots els circuits es poden expressar com a portes NAND o com a portes NOR, implementar totes les portes amb el mateix tipus de porta ens permet fer servir només un tipus d'integrat, cosa que ens facilita abaratir costos, les equivalències són les següents:
+![[elecdig/b1/t1/suficiencia.png]]
