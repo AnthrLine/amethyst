@@ -36,4 +36,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: deploy  # deploying branch
-          cname: anthrline.github.io
+          cname: anthrline.github.io # test

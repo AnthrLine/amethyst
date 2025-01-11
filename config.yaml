@@ -1,4 +1,4 @@
-baseURL: "https://anthrline.github.io/amethyst/"
+baseURL: "https://anthrline.github.io/amethyst/" # test
 
 # Book configuration
 disablePathToLower: true
