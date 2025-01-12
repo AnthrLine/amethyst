@@ -2,12 +2,13 @@
 title: T.2 - Sistemes combinacionals
 ---
 > [!warning] Atenció
+> 
 > Aquesta pàgina NO està acabada!
 
 
->[!info]
+>[!info] TL;DR
 >
->La sortida d'un **circuit combinacional** només es veu condicionada per l'entrada que té.
+>La sortida d'un **circuit combinacional** només es veu condicionada per l'entrada que té, hi ha diferents tipus, però normalment serveixen per a fer càlculs de l'àlgebra de boole.
 
 ## Anàlisi i disseny dels circuits combinacionals
 Per a treballar amb circuits combinacionals s'ha de saber com analitzar el que fan, si és que no sabem quin tipus de circuits són, o hem d'aprendre a dissenyar els nostres propis circuits, per poder resoldre els problemes específics que poguem tenir.

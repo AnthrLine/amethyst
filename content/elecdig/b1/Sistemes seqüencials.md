@@ -3,6 +3,7 @@ title: T.3 - Sistemes seqüencials
 ---
 
 > [!warning] Atenció
+> 
 > Aquesta pàgina NO està acabada!
 
 Els circuits seqüencials són circuits amb la capacitat de seguir un procés amb un ordre, per tant, estàn afectats per el moment en el que entren les senyals d'entrada, no només elles afecten el resultat.
@@ -97,3 +98,27 @@ Aquesta senyal es pot fer servir de quatre maneres diferents en els circuits:
 
 El conveni per a saber de quina manera funciona el flip-flop és el següent:
 
+### Definir de manera asíncrona
+Els flip-flops es poden definir de manera asíncrona si porten incorporades les entrades $CLR$ (clear) i $PR$ (preset).
+
+Aquestes entrades ignoren el senyal de rellotge i actuen en qualsevol moment, el seu funcionament és el següent:
+- $CLR$ defineix $Q^+ = 0$
+- $PR$ defineix $Q^+=1$
+
+## Registres (o també shift registers)
+Els registres són uns circuits construïts a base de flip-flops que actuen com una espècie de memòria, a diferència dels flip-flops, aquests poden emmagatzemar vàries quantitats de bits, depenent de la seva construcció.
+
+Hi ha diferents tipus de registres, tot i que tots funcionen a partir del mateix principi, només canvien la forma en la que es llegeixen o entren les dades emmagatzemades.
+Per a simplificar el tema, ja que es pot deduir com funcionen els altres, només ensenyaré el **registre universal** o *universal shift register*.
+
+Aquest està construït de la següent manera:
+
+Es veu que té diferents entrades i sortides, les entrades són les següents:
+- $\overline{LD}/SH$ Selecciona entre el mode en sèrie o el mode en paral·lel
+- $SI$ És l'entrada en sèrie, només utilitzada si el mode en sèrie està activat
+- $CLK$ Senyal de rellotge
+- $CLR$ Si en té, deixa el registre a 0 en totes les posicions
+- $D_n$ Entrades en paral·lel, només actives si el mode paral·lel està activat
+
+Les sortides que té son:
+- $Q_n$ La sortida en paral·lel, o, si només es llegeix la última, la sortida en sèrie.

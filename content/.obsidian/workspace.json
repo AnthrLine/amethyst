@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elecdig/b1/Sistemes combinacionals.md",
+                "file": "elecdig/b1/Sistemes seqüencials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemes combinacionals"
+              "title": "Sistemes seqüencials"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elecdig/b1/Sistemes combinacionals.md"
+                "file": "elecdig/b1/Sistemes seqüencials.md"
               },
               "icon": "lucide-list",
-              "title": "Esquema de Sistemes combinacionals"
+              "title": "Esquema de Sistemes seqüencials"
             }
           }
         ],
@@ -179,10 +179,10 @@
   },
   "active": "200dc95284717e30",
   "lastOpenFiles": [
-    "elecdig/b1/Sistemes seqüencials.md",
     "elecdig/b1/Estructura i algebra de boole.md",
-    "elecdig/b1/_index.md",
     "elecdig/b1/Sistemes combinacionals.md",
+    "elecdig/b1/Sistemes seqüencials.md",
+    "elecdig/b1/_index.md",
     "Fulla de referències.md",
     "elecdig/b1/t1/suficiencia.png",
     "elecdig/b1/t1/portes.png",
