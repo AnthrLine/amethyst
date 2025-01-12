@@ -143,3 +143,6 @@ params:
   BookSearch: false
   BookServiceWorker: false
   BookPortableLinks: false
+
+  # Adding robots.txt
+  enableRobotsTXT: false
