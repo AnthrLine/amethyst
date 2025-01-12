@@ -122,3 +122,23 @@ Es veu que té diferents entrades i sortides, les entrades són les següents:
 
 Les sortides que té son:
 - $Q_n$ La sortida en paral·lel, o, si només es llegeix la última, la sortida en sèrie.
+
+## Comptadors
+Els comptadors són uns sistemes molt útils que permeten comptar el nombre de cops que ha ocorregut un esdeveniment en particular, tot i contar de 0 a *n*, també poden comptar amb qualsevol seqüència "aleatòria" definida en la seva construcció.
+Es diu que un comptador es **asíncron** si els senyal de rellotge (o l'esdeveniment) no arriba a tots els flip-flops a la vegada.
+Per altra banda, s'anomena **síncron** si el senyal arriba a tots els flip-flops a la vegada.
+
+Si un comptador es connecta a un rellotge, es pot fer servir com a **divisor de freqüència**, escollint com es vol que es divideixi triant un bit de un pes diferent.
+
+### Comptadors asíncrons
+Un comptador asíncron bàsic es construeix de la següent manera:
+
+Es pot veure que només té una entrada, tot i que té *n* sortides, depenent del número al que es vulgui contar.
+
+Si es vol fer que el comptador sigui decremental, es pot connectar de la següent manera:
+
+I, finalment, si es vol seleccionar entre un comptador incremental o decremental senzillament s'ha de col·locar un multiplexor 2x1 entre cada flip-flop que seleccioni entre la sortida negada o no-negada.
+
+### Comptadors síncrons
+TODO
+
