@@ -1,6 +1,10 @@
 ---
 title: T.3 - Sistemes seqüencials
 ---
+
+> [!warning] Atenció
+> Aquesta pàgina NO està acabada!
+
 Els circuits seqüencials són circuits amb la capacitat de seguir un procés amb un ordre, per tant, estàn afectats per el moment en el que entren les senyals d'entrada, no només elles afecten el resultat.
 Aquests sistemes per a tenir un control del temps fan servir un circuit anomenat **flip-flop**, aquest, és capaç d'emmagatzemar un bit.
 

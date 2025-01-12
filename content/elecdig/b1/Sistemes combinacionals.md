@@ -1,6 +1,10 @@
 ---
 title: T.2 - Sistemes combinacionals
 ---
+> [!warning] Atenció
+> Aquesta pàgina NO està acabada!
+
+
 >[!info]
 >
 >La sortida d'un **circuit combinacional** només es veu condicionada per l'entrada que té.
