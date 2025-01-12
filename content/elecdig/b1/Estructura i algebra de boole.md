@@ -22,6 +22,10 @@ senyals digitals. Per tant, les dades analògiques que es volen tractar s'han ha
 ### Senyal de rellotge
 És un tipus de senyal que alterna entre entre HIGH i LOW de forma homogènia. Ho fa amb un **període** (T), que es defineix com el temps que es tarda entre dues repeticions d'aquest interval. La **freqüència**, mesura el nombre de repeticions per segon, i utilitza el *Hertz*.
 $$ f = \frac{1}{T} = T^{-1} \hspace{2cm} T = \frac{1}{f} = f^{-1} $$
+
+Aquests senyals a part dels nivells alt (quan està en HIGH) i baix (quan està en LOW), també tenen els anomenats **flancs**:
+Com que canviar del nivell no és un procés perfecte, es pot detectar aquest canvi, per tant, també es pot fer servir per a activar diferents circuits.
+Quan el senyal canvia de nivell baix a alt s'anomena *flanc de pujada*, quan ho fa a l'inrevés s'anomena *flanc de baixada*.
 ## Arquitectura bàsica d'un computador
 L'arquitectura bàsica d'un computador és l'arquitectura de Von Neumann, que defineix que un computador ha de tenir un **processador**, **memòria** i una unitat dedicada a **l'entrada i sortida**. A més, aquestes unitats han d'estar connectades entre sí a través d'un **sistema de busos**.
 
