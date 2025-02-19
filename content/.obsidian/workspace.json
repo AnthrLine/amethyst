@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Sistemes seqüencials"
             }
+          },
+          {
+            "id": "3c58e083d368fada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "elecdig/b1/Sistemes seqüencials.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sistemes seqüencials"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -55,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de fitxers"
@@ -154,7 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elecdig/b1/Sistemes seqüencials.md"
+                "file": "elecdig/b1/Sistemes seqüencials.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Esquema de Sistemes seqüencials"
@@ -177,18 +195,26 @@
       "command-palette:Obre la paleta d'ordres": false
     }
   },
-  "active": "200dc95284717e30",
+  "active": "3c58e083d368fada",
   "lastOpenFiles": [
-    "elecdig/b1/Estructura i algebra de boole.md",
     "elecdig/b1/Sistemes combinacionals.md",
     "elecdig/b1/Sistemes seqüencials.md",
+    "elecdig/b1/t2/sr.png",
+    "elecdig/b1/t2/d.png",
+    "elecdig/b1/t2/jk.png",
+    "elecdig/b1/t2/comptasinc.png",
+    "elecdig/b1/t2/comptasdec.png",
+    "elecdig/b1/Estructura i algebra de boole.md",
+    "elecdig/b1/t2/comptsinc.png",
+    "elecdig/b1/t2/rs.png",
+    "elecdig/b1/t2/conveni.png",
+    "elecdig/b1/t2/unireg.png",
+    "elecdig/b1/t2",
     "elecdig/b1/_index.md",
     "Fulla de referències.md",
     "elecdig/b1/t1/suficiencia.png",
-    "elecdig/b1/t1/portes.png",
     "elecdig/_index.md",
     "_index.md",
-    "elecdig/b1/t1/freq_mostreig.png",
     "elecdig/b1/t1",
     "alg",
     "calc/Sense títol",
